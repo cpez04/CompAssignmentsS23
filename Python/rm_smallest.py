@@ -6,7 +6,7 @@ def rm_smallest(d):
         min_key = [k for k, v in d.items() if v == min_value][0]
         d.pop(min_key)
         return d 
-        
+    
 
 def test():
     assert 'a' in rm_smallest({'a':1,'b':-10}).keys()
